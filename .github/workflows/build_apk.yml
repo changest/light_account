@@ -26,6 +26,10 @@ jobs:
         flutter-version: '3.24.0'
         channel: 'stable'
 
+    - name: Create local.properties
+      run: |
+        echo "flutter.sdk=${{ env.FLUTTER_ROOT }}" > android/local.properties
+
     - name: Install dependencies
       run: flutter pub get
 
