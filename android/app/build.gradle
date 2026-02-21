@@ -9,7 +9,7 @@ def flutterVersionName = "1.0.0"
 
 android {
     namespace "com.example.light_account"
-    compileSdkVersion 34
+    compileSdkVersion 35
     ndkVersion flutter.ndkVersion
 
     compileOptions {
