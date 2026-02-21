@@ -29,10 +29,6 @@ jobs:
     - name: Install dependencies
       run: flutter pub get
 
-    - name: Analyze code
-      run: flutter analyze
-      continue-on-error: true
-
     - name: Build Debug APK
       run: flutter build apk --debug
 
