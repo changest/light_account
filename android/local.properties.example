@@ -1,0 +1,12 @@
+# 本地配置模板
+# 复制此文件为 local.properties 并填写你的配置
+
+# Flutter SDK 路径（必填）
+flutter.sdk=C:/flutter
+
+# 版本号
+flutter.versionCode=1
+flutter.versionName=1.0.0
+
+# Android SDK 路径（可选，通常自动检测）
+# sdk.dir=C:/Users/xxx/AppData/Local/Android/Sdk
