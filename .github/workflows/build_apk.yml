@@ -46,9 +46,9 @@ jobs:
       uses: softprops/action-gh-release@v1
       if: github.ref == 'refs/heads/main'
       with:
-        tag_name: v1.0.0
-        name: 轻账 v1.0.0
-        body: 魅族风格本地记账应用
+        tag_name: v1.0.1
+        name: 轻账 v1.0.1
+        body: 魅族风格本地记账应用 - 修复版
         files: build/app/outputs/flutter-apk/app-release.apk
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
